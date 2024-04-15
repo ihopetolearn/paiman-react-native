@@ -11,6 +11,7 @@ const Home = props => (
         <Button onPress={()=>props.navigation.navigate('paiman6')} title="got ot the coloscreen"/>
         <Button onPress={()=>props.navigation.navigate('paiman7')} title="go to the sqaure screen"/>
         <Button onPress={()=>props.navigation.navigate('paiman8')} title="go to text screen"/>
+        <Button onPress={()=>props.navigation.navigate('paiman9')}title="got ot the box"/>
         <TouchableOpacity onPress={() => props.navigation.navigate('paiman2')}>
             <Text> this is the first page  </Text>
             <Text> this is the paiman  </Text>

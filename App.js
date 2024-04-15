@@ -8,6 +8,7 @@ import counterScreen from "./src/screen/counterScreen";
 import ColorScreen from "./src/screen/colorScreen";
 import SquarScreen from "./src/screen/squareScreen";
 import TextScreen from "./src/screen/Textscreen";
+import BoxScreen from "./src/screen/BoxScreen";
 
 const navigator = createStackNavigator(
   {
@@ -18,7 +19,8 @@ const navigator = createStackNavigator(
     paiman5: counterScreen,
     paiman6: ColorScreen,
     paiman7:SquarScreen,
-    paiman8: TextScreen
+    paiman8: TextScreen,
+    paiman9: BoxScreen
     
 
   },
